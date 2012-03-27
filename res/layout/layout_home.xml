@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar" />
+    <LinearLayout
+        android:id="@+id/layout_relative_dashboardlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg9patch" >
+        <com.mms.mpc.custom.DashboardLayout
+            android:id="@+id/dashboardlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/actionbarlayout"
+            android:background="@drawable/menu_bg" >
+
+            <TextView
+                android:id="@+id/home_tv_latestupdates"
+                style="@style/DashboardButtonStyle"
+                android:drawableTop="@drawable/home_latest_updates"
+                android:text="@string/home_text_latest_updates" />
+
+            <TextView
+                android:id="@+id/home_tv_doctor_visits"
+                style="@style/DashboardButtonStyle"
+                android:drawableTop="@drawable/home_doctors_visit"
+                android:text="@string/home_text_doctor_visits" />
+
+            <TextView
+                android:id="@+id/home_tv_prescriptions"
+                style="@style/DashboardButtonStyle"
+                android:drawableTop="@drawable/home_prescriptions"
+                android:text="PRESCRIPTIONS" />
+
+            <TextView
+                android:id="@+id/home_tv_diet_care"
+                style="@style/DashboardButtonStyle"
+                android:drawableTop="@drawable/home_diet_care"
+                android:text="@string/home_text_diet_care" />
+
+            <TextView
+                android:id="@+id/home_tv_myaccount"
+                style="@style/DashboardButtonStyle"
+                android:drawableTop="@drawable/home_myaccount"
+                android:text="@string/home_text_myaccount" />
+
+            <TextView
+                android:id="@+id/home_tv_imp_info"
+                style="@style/DashboardButtonStyle"
+                android:drawableTop="@drawable/home_imp_info"
+                android:text="@string/home_text_imp_info" />
+        </com.mms.mpc.custom.DashboardLayout>
+       <!--   <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dip"
+            android:layout_marginTop="40dip"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/caduceus" /> -->
+   </LinearLayout>
+    <include
+        
+        layout="@layout/mms_ad" />
+
+</LinearLayout>

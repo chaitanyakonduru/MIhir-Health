@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg9patch"
+        android:orientation="vertical" >
+        <include layout="@layout/action_bar_tv_patient_name" />
+
+        <TextView
+            style="@style/headertextstyle"
+            android:text="@string/home_text_latest_updates" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/LatestUpdatesTextViews"
+                    android:text="@string/dept"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/latestupdates_deptname"
+                    style="@style/LatestUpdatesTextViews"
+                    android:text="" />
+
+                <TextView
+                    style="@style/LatestUpdatesTextViews"
+                    android:text="@string/ward"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/latestupdates_wardname"
+                    style="@style/LatestUpdatesTextViews"
+                    android:text="ICU " />
+
+                <TextView
+                    style="@style/LatestUpdatesTextViews"
+                    android:text="@string/bed"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/latestupdates_bedname" 
+                    style="@style/LatestUpdatesTextViews"
+                    android:text="201 " />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/menu_bg" >
+
+                <include layout="@layout/layout_latestupdates_patientstat" />
+            </ScrollView>
+        </LinearLayout>
+
+        <include layout="@layout/sharebutton" />
+    </LinearLayout>
+
+    <include layout="@layout/mms_ad" />
+
+</LinearLayout>

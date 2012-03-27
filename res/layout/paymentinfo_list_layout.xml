@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Current Billed Amt"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:text=" :  "
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="12dip"
+            android:layout_height="12dip"
+            android:src="@drawable/inr_white" />
+
+        <TextView
+            android:id="@+id/payinfo_ll_currentbillamt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="00000"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Discount"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:text=" :  "
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="12dip"
+            android:layout_height="12dip"
+            android:src="@drawable/inr_white" />
+
+        <TextView
+            android:id="@+id/payinfo_discount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="000000"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Paid Amount"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:text=" :  "
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="12dip"
+            android:layout_height="12dip"
+            android:src="@drawable/inr_white" />
+
+        <TextView
+            android:id="@+id/payinfo_paidamt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="00000"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Paid Date"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:text=" :  "
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/payinfo_paiddate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="00000"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+</TableLayout>

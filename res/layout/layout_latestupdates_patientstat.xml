@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Bed Type"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/latestupdates_bedtype" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Room Type"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+             android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+             android:layout_width="0dp"
+            android:layout_weight="1"
+             android:id="@+id/latestupdates_room_type" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Room Number"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/latestupdates_room_no" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Updating Doctor"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:id="@+id/latestupdates_updating_doctor" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Proposed Discharge"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="end" 
+            android:id="@+id/latestupdates_propsed_discharge" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:paddingTop="6dip" >
+
+        <TextView
+            
+            style="@style/LatestUpdatesTextViews"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:paddingLeft="4dip"
+            android:text="Latest Diagnostics"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Long"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/latestupdates_long" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Short"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/latestupdates_short" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Instructions"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:text=" :  "
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/latestupdates_instrucations" 
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="hello">Hello World, MihirHealthActivity!</string>
+    <string name="app_name">MihirHealth</string>
+    <string name="home_text_latest_updates">LATEST UPDATES</string>
+    <string name="home_text_doctor_visits">PHYSICIAN VISITS</string>
+    <string name="home_text_prescriptions">PRESCRIPTIONS, TESTS &amp; PROCEDURES</string>
+    <string name="home_text_diet_care">DIET &amp; CARE</string>
+    <string name="home_text_myaccount">MY ACCOUNT</string>
+    <string name="home_text_imp_info">IMP.INFO</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="hospname">Hospital Name</string>
+    <string name="product_name">Mihir PatientCompanion</string>
+    <string name="trade_mark">TM</string>
+    <string name="login_header_text">LOGIN</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgotpwd">Forgot Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dept">Dept :</string>
+    <string name="ward">Ward :</string>
+    <string name="bed">Bed :</string>
+    <string name="current_diagnostics">Current Diagnostics :</string>
+    <string name="updated_time">Updated Time :</string>
+    <string name="description">Description</string>
+    <string name="alert">Alert</string>
+    <string name="date">Date :</string>
+    <string name="time">Time :</string>
+    <string name="emptytext">No Visits</string>
+    <string name="doctorname">Doctor Name :</string>
+    <string name="username">User Name :</string>
+    <string name="logout_time">Logout Time</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="signout">  Signout  </string>
+    <string name="change">Change</string>
+    <string name="send">Send</string>
+    <string name="Rs">\u20B9</string>
+
+         <string-array name="logout_entries">
+        <item>Hour(s)</item>
+        <item>Day(s)</item>
+        <item>Never</item>
+    </string-array>
+        
+</resources>
